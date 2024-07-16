@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2.5% auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.name-title {
+    margin-left: 20px;
+}
+
+.name-title h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.name-title h1 span {
+    font-weight: normal;
+    color: #666;
+}
+
+.name-title p {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+    color: #999;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #f4b042;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+.language-level {
+    margin: 10px 0;
+}
+
+.language-level .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.experience, .education {
+    margin-bottom: 20px;
+}
+
+.experience h3, .education h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #f4b042;
+}
+
+.experience p, .education p {
+    margin: 5px 0;
+    color: #666;
+}
